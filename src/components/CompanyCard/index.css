@@ -1,0 +1,100 @@
+.card-list {
+  list-style-type: none;
+  background-color: #475569;
+  margin: 20px;
+  width: 90%;
+  /* height: 30%; */
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.link-class {
+  text-decoration: none;
+}
+
+.card-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.company-logo {
+  width: 50px;
+  margin-right: 20px;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.job-title {
+  color: #fff;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+  font-size: 17px;
+  margin-bottom: 0px;
+}
+
+.star {
+  color: #fbbf24;
+  font-size: 20px;
+}
+
+.rating {
+  color: #fff;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-left: 5px;
+}
+
+.location-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.div1 {
+  display: flex;
+  align-items: center;
+}
+
+.loc-icon {
+  display: flex;
+  align-items: center;
+}
+
+.type-employ {
+  display: flex;
+  align-items: center;
+}
+
+.icon-loc {
+  color: #fff;
+  margin-right: 5px;
+}
+
+.location {
+  color: #fff;
+  font-family: 'cambria';
+  margin-right: 25px;
+}
+
+.package {
+  color: #fff;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.description-heading {
+  color: #fff;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.job-description {
+  color: #f1f5f9;
+  font-family: 'Cambria';
+}

@@ -1,0 +1,158 @@
+.job-item-details-container {
+  background-color: #000000;
+}
+
+.failure-main-container {
+  background-color: #000000;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.failure-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.item-container {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item-card {
+  list-style-type: none;
+  background-color: #475569;
+  margin: 20px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.company-link-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.align-link {
+  display: flex;
+  align-items: center;
+}
+
+.visit-link {
+  width: 25px;
+  height: 22px;
+  color: deepskyblue;
+}
+
+.link-url {
+  font-size: 20px;
+  font-family: 'Bree Serif';
+  color: deepskyblue;
+  text-decoration: none;
+}
+
+.skills-heading {
+  color: #fff;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+  font-size: 22px;
+  margin-top: 40px;
+}
+
+.skills-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.skills-list-item {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  margin-top: 25px;
+}
+
+.skill-image {
+  width: 20%;
+}
+
+.skill-name {
+  color: #fff;
+  font-family: 'Cambria';
+  font-weight: 300;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.item-job-description {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.photo-description-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.life-at-company-description {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 300;
+  width: 60%;
+}
+
+.life-at-image {
+  width: 25%;
+  margin-right: 5%;
+}
+
+.similar-heading {
+  color: #fff;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+  font-size: 22px;
+  margin-top: 30px;
+  text-align: start;
+  width: 100%;
+}
+
+.similar-jobs-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.similar-card-list {
+  list-style-type: none;
+  background-color: #475569;
+  margin: 20px 40px 20px 0px;
+  width: 25%;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.failure-heading {
+  color: #fff;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+  font-size: 35px;
+  margin-top: 40px;
+}
+
+.failure-description {
+  color: #f1f5f9;
+  font-family: 'Cambria';
+  font-size: 18px;
+  margin-bottom: 25px;
+  margin-top: 0px;
+}
