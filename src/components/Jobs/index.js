@@ -257,21 +257,21 @@ class Jobs extends Component {
 
   onChangeEmploymentTypeInput = event => {
     const {employmentType} = this.state
-    const checkEmploymentList = employmentType.filter(
-      eachItem => eachItem === event.target.idd,
-    )
-    if (checkEmploymentList.length === 0) {
+    // const checkEmploymentList = employmentType.filter(
+    //   eachItem => eachItem === event.target.id,
+    // )
+    if (employmentType.includes(event.target.id)) {
+      const filteredList = employmentType.filter(
+        eachItem => eachItem !== event.target.id,
+      )
+      this.setState({employmentType: filteredList}, this.renderJobs)
+    } else {
       this.setState(
         prevState => ({
           employmentType: [...prevState.employmentType, event.target.id],
         }),
         this.renderJobs,
       )
-    } else {
-      const filteredList = employmentType.filter(
-        eachItem => eachItem !== event.target.value,
-      )
-      this.setState({employmentType: filteredList}, this.renderJobs)
     }
   }
 
