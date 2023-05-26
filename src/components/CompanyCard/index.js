@@ -18,7 +18,7 @@ const CompanyCard = props => {
     id,
   } = companyDetails
   return (
-    <Link className="link-class" to={`/Jobs/${id}`}>
+    <Link className="link-class" to={`/jobs/${id}`}>
       <li className="card-list">
         <div className="card-logo-container">
           <img
