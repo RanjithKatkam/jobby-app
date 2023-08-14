@@ -66,7 +66,7 @@ class Login extends Component {
             type="text"
             id="username"
             value={username}
-            placeholder="Username"
+            placeholder="rahul/praneetha"
           />
           <label className="label" htmlFor="password">
             PASSWORD
@@ -76,23 +76,13 @@ class Login extends Component {
             onChange={this.onChangeUserPassword}
             type="password"
             id="password"
-            placeholder="Password"
+            placeholder="rahul@2021/praneetha@2021"
           />
           <button className="login-button" type="submit">
             Login
           </button>
           {displayErrorMsg && <p className="error-msg">*{errorMsg}</p>}
         </form>
-        <div className="credentials">
-          <h1 className="credentials-heading">
-            You can use any of the following login credentials !
-          </h1>
-          <h1 className="cred-details">Username: rahul</h1>
-          <h1 className="cred-details">Password: rahul@2021</h1>
-          <hr />
-          <h1 className="cred-details">Username: praneetha</h1>
-          <h1 className="cred-details">Password: praneetha@2021</h1>
-        </div>
       </div>
     )
   }
