@@ -22,6 +22,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100vw;
 }
 
 .item-card {
@@ -155,4 +156,48 @@
   font-size: 18px;
   margin-bottom: 25px;
   margin-top: 0px;
+}
+
+@media (max-width: 768px) {
+  .failure-heading {
+    font-size: 15px;
+  }
+  .failure-description {
+    font-size: 15px;
+  }
+
+  .item-container {
+    padding: 20px;
+  }
+  .link-url {
+    font-size: 15px;
+  }
+  .item-job-description {
+    font-size: 15px;
+  }
+  .skills-heading {
+    font-size: 16px;
+  }
+  .skills-container {
+    width: 100%;
+  }
+  .skills-list-item {
+    width: 50%;
+  }
+  .photo-description-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .life-at-company-description {
+    width: 100%;
+  }
+  .life-at-image {
+    width: 100%;
+  }
+  .similar-jobs-container {
+    flex-direction: column;
+  }
+  .similar-card-list {
+    width: 95%;
+  }
 }

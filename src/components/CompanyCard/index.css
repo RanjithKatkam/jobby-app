@@ -1,11 +1,17 @@
 .card-list {
   list-style-type: none;
-  background-color: #475569;
+  background-color: #2d3d55;
   margin: 20px;
   width: 90%;
   /* height: 30%; */
   padding: 20px;
   border-radius: 15px;
+  /* box-shadow: 5px 15px #333030; */
+}
+
+.card-list:hover {
+  box-shadow: 5px 15px #333030;
+  transform: scale(1.04);
 }
 
 .link-class {
@@ -97,4 +103,16 @@
 .job-description {
   color: #f1f5f9;
   font-family: 'Cambria';
+}
+
+@media (max-width: 768px) {
+  .package {
+    font-size: 9px;
+  }
+  .location {
+    font-size: 10px;
+  }
+  .description-heading {
+    font-size: 15px;
+  }
 }

@@ -19,13 +19,14 @@
 .description {
   color: #f1f5f9;
   font-family: 'Roboto';
+  font-style: italic;
   font-weight: 400;
   font-size: 20px;
   width: 50%;
 }
 
 .find-jobs-button {
-  background-color: #6366f1;
+  background-color: #272871;
   color: #fff;
   font-family: 'Bree Serif';
   font-weight: 500;
@@ -41,11 +42,14 @@
 @media (max-width: 768px) {
   .heading {
     width: 90%;
-    font-size: 40px;
+    font-size: 30px;
   }
   .description {
-    font-size: 16px;
+    font-size: 14px;
     width: 70%;
+  }
+  .find-jobs-button {
+    margin-top: 20px;
   }
 
   .main-container {

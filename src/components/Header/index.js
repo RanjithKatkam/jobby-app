@@ -31,11 +31,7 @@ const Header = props => {
             </li>
           </Link>
           <Link to="/jobs">
-            <li
-              className="icon-button"
-              type="button"
-              data-testid="searchButton"
-            >
+            <li className="icon-button" type="button">
               <BsSearch className="home-icon" />
             </li>
           </Link>

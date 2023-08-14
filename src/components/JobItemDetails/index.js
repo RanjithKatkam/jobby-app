@@ -42,6 +42,7 @@ class JobItemDetails extends Component {
     const response = await fetch(url, options)
     if (response.ok === true) {
       const data = await response.json()
+      console.log(data)
       const updatedData = {
         jobDetails: data.job_details,
         similarJobs: data.similar_jobs,
@@ -220,6 +221,7 @@ class JobItemDetails extends Component {
     <div className="failure-main-container">
       <div className="failure-container">
         <img
+          className="failure-view-image"
           src="https://assets.ccbp.in/frontend/react-js/failure-img.png"
           alt="failure view"
         />
